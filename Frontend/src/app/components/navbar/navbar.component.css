@@ -1,0 +1,10 @@
+.navbar-nav{
+    margin-left: 25cm;
+}
+.nav-item{
+    padding-left: 20px;
+    color: black;
+}
+a:hover{
+    background-color: palegoldenrod;
+}

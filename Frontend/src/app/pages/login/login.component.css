@@ -1,0 +1,19 @@
+.form_container{
+    width: 41cm;
+    height: 20cm;
+}
+.form1{
+    padding-left: 100px;
+    padding-top: 5cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+input{
+
+    width: 8cm;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

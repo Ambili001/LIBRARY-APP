@@ -1,0 +1,29 @@
+<app-navbar></app-navbar>
+
+<table class="table">
+    <thead class="heading">
+      <tr>
+        <th scope="col">Sl No.</th>
+        <th scope="col">Book</th>
+        <th scope="col">Author</th>
+        <th scope="col">Pages</th>
+        <th scope="col">Delete/Update</th>
+      </tr>
+    </thead>
+    <tbody>
+         <tr *ngFor="let book of books;let i= index"> 
+             <th scope="row">{{i+1}}</th>
+        <td>{{book.name}}</td>
+        <td>{{book.author}}</td>
+        <td>{{book.publisher}}</td>
+        <td>{{book.page}}</td>
+         <td>  
+                <button type="button" (click)="UpdateBook(book._id)" class="btn btn-danger">Edit</button> &nbsp;&nbsp;
+                <button  type="button"(click)="DeleteBook(book._id)"  class="btn btn-warning">Delete</button>
+            </td>
+
+            
+          </tr>
+      
+    </tbody>
+  </table>
